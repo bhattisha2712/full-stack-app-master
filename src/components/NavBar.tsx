@@ -9,6 +9,7 @@ export default function NavBar() {
 				<div className='flex gap-4'>
 					<Link href='/'>Home</Link>
 					<Link href='/about'>About</Link>
+					<Link href='/#predictor'>Stock Market Predictor</Link>
 					{session && <Link href='/dashboard'>Dashboard</Link>}
 				</div>
 				<div className='flex items-center gap-4'>
